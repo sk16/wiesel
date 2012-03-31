@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<ScrollView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/ScrollView01"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:scrollbars="vertical">  
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+  
+<!--Put form controls here-->  
+<TextView  
+    android:id="@+id/usertitlek"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:text="@string/userformtitle"  
+    android:textSize="10pt">  
+</TextView>
+<TextView  
+    android:id="@+id/usertitle"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:text="@string/userformtitle2"  
+    android:textSize="8pt">  
+</TextView>
+<EditText  
+    android:id="@+id/user"  
+    android:layout_height="wrap_content"  
+    android:hint="@string/usernameform"  
+    android:inputType="textPersonName"   
+     
+    android:layout_width="fill_parent">  
+</EditText>    <!-- textPersonName textName -->
+<EditText  
+    android:id="@+id/userpw1"  
+    android:layout_height="wrap_content"  
+    android:hint="@string/pw1"  
+    android:inputType="textPassword"  
+    android:layout_width="fill_parent">  
+</EditText>  
+<EditText  
+    android:id="@+id/userpw2"  
+    android:layout_height="wrap_content"  
+    android:hint="@string/pw2"  
+    android:inputType="textPassword"  
+    android:layout_width="fill_parent">  
+</EditText>  
+
+
+<EditText  
+    android:id="@+id/EditTextEmail"  
+    android:layout_height="wrap_content"  
+    android:hint="@string/feedbackemail"  
+    android:inputType="textEmailAddress"  
+    android:layout_width="fill_parent">  
+</EditText>  
+<TextView  
+    android:id="@+id/usertitle"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:text="@string/userformoptional"  
+    android:textSize="8pt">  
+</TextView>
+<EditText
+    android:id="@+id/age"  
+    android:layout_height="wrap_content"  
+    android:hint="@string/age"  
+    android:inputType="number"  
+    android:layout_width="fill_parent">  
+</EditText>
+
+
+
+<TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TableRow>
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/weight"
+        android:inputType="number" >
+
+        
+    </EditText>
+
+
+    
+   
+<Spinner
+    android:id="@+id/spinner1"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content" 
+    android:entries="@array/weight_arrays"
+    />
+    
+    </TableRow>
+</TableLayout>  
+
+<Button  
+    android:id="@+id/ButtonSendFeedback"  
+    android:layout_height="wrap_content"  
+    android:text="@string/feedbackbutton"  
+    android:onClick="sendFeedback"  
+    android:layout_width="fill_parent">  
+</Button>  
+
+
+
+    </LinearLayout>  
+</ScrollView>  

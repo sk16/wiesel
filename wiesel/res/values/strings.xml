@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="antservice_label">ANT Radio Service</string>
+<string name="app_name">ANT+ Demo</string>
+<string name="NoSensor_txt">Device Offline</string>
+<string name="NoANT_txt">Radio Unavailable</string>
+<string name="Computing">Scale found</string>
+<string name="Invalid">Error</string>
+<string name="NewSession">New session?</string>
+<string name="BP_button">START!</string>
+<string name="Search">Connecting...</string>
+<string name="Menu_Exit">Exit</string>
+<string name="pw1">Password</string>
+<string name="pw2">Reenter Password</string>
+<string name="usernameform">Username</string>
+<string name="feedbackemail">Email address</string>
+<string name="feedbackbutton">Sign Up</string>
+<string name="userformtitle">Sign Up for saving BPM data on the net</string>
+<string name="userformtitle2">Required:</string>
+<string name="userformoptional">Optional:</string>
+<string name="weight">Weight</string>
+<string-array name="weight_arrays">
+        <item>kg</item>
+        <item>lbs</item>
+       
+    </string-array>
+<string name="age">Age</string>
+<string name="foreground_service_started">Heart rate logging enabled</string>
+<string name="local_service_label">Heart rate monitor</string>
+<string name="Menu_Draw_Graph">Graph</string>
+<string name="Menu_Wildcard_HRM">Pair HRM</string>
+<string name="Menu_Wildcard_SDM">Pair SDM</string>
+<string name="Menu_Wildcard_Weight">Pair Weight</string>
+<string name="Menu_Sensor_Config">Sensor Configuration</string>
+<string name="Menu_Sync_http">Sync HR with Server</string>
+<string name="Menu_keep_logging">Log always</string>
+<string name="Menu_keep_logging2">Do not log when closed</string>
+<string name="Menu_Log_Config">HRM Configuration</string>
+<string name="Menu_Change_beep">Alert if Max Pulse reached</string>
+<string name="Menu_Change_beepmin">Alert if Min Pulse reached</string>
+<string name="Menu_HRM">Heart Rate Settings</string>
+<string name="Menu_SDM">Speed and Distance Settings</string>
+<string name="Menu_WGT">Weight Scale Settings</string>
+<string name="Menu_Proximity">Proximity Search Settings</string>
+<string name="Menu_Buffer_Threshold">Message Buffering Settings</string>
+<string name="Menu_Claim_Interface">Seize ANT Radio Control</string>
+<string name="Menu_Help_screen">Help</string>
+<string name="Menu_hrm_period">Ant HRM Period</string>
+<string name="Menu_Flight_Mode">Keep Ant off in Flight Mode</string>
+<string name="Menu_Flight_Mode2">Keep Ant on in Flight Mode</string>
+<string name="Menu_write_period">HRM Logging period</string>
+<string name="Dialog_Pair_HRM">Heart Rate Monitor</string>
+<string name="Dialog_Pair_SDM">Speed and Distance</string>
+<string name="Dialog_Pair_WGT">Weight Scale</string>
+<string name="Dialog_Pair">Device Number</string>
+<string name="Dialog_Confirm">OK</string>
+<string name="Dialog_Proximity">Proximity Search</string>
+<string name="Dialog_Prox_Text">Proximity Threshold</string>
+<string name="Dialog_Buffer_Threshold">Message Buffering</string>
+<string name="Dialog_Buffer_Threshold_Text">Buffer Threshold</string>
+<string name="Dialog_write_period">HRM Logging Period</string>
+<string name="Dialog_beep_max">Highest Pulse rate until alert occurs</string>
+<string name="Dialog_beep_min">Lowest Pulse rate until alert occurs</string>
+<string name="Dialog_beep_max_text">Pulse rate in Beats per minute</string>
+<string name="Dialog_beep_min_text">Pulse rate in Beats per minute</string>
+<string name="Dialog_write_period_text">Period in seconds</string>
+<string name="Dialog_Exit_Check">Are you sure you want to exit?</string>
+<string name="Dialog_Cancel">Cancel</string>
+<string name="Text_Disabled">ANT Disabled</string>
+<string name="Text_Enabling">Enabling ANT...</string>
+<string name="Text_ANT_In_Use">ANT Radio in use</string>
+<string name="Text_ANT_Not_Supported">ANT not supported</string>
+<string name="Text_ANT_Error">ANT Error</string>
+<string name="Text_ANT_Service_Required">ANT Radio Service needed</string>
+<string name="Notify_Service_Required">
+You must install the ANT Radio Service to interface to the ANT hardware.
+</string>
+<string name="Connected">Connected</string>
+<string name="Closed">Click Icon</string>
+<string name="DataFormat">0.00</string>
+<string name="noData">--</string>
+<string name="hello">Hello</string>
+
+<!--
+ \u0020 is the unicode space character, needed because leading spaces are normally stripped 
+-->
+<string name="heartRateUnits">\u0020BPM</string>
+<string name="speedUnits">\u0020m/s</string>
+<string name="distanceUnits">\u0020m</string>
+<string name="stepUnits">\u0020strides</string>
+<string name="cadenceUnits">\u0020str/min</string>
+<string name="weightUnits">\u0020Kg</string>
+<string name="helpcontent">You need an ant+ capable heart rate monitor to use this app. Wear the monitor and click on the heart icon.
+    
+    Your heart rate is then saved every minute to the SD-Card in the folder bpm. You can see the graph of your heart rate, if you click the blue pulse icon.
+    If you want your beats per minute to be saved even if the app is not running select "Log always" in the Log Configuration menu.
+    Furthermore you can sync your heart rate with the server to watch it on the net at www.nsteinbock.de, if you click on the sync icon.
+     </string>
+</resources>
